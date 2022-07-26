@@ -1,0 +1,139 @@
+#img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(47 47 47 / 49%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.navbar-brand {
+    color: #F65F73;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: -6px;
+}
+
+.card-h {
+    height: 100%;
+}
+
+.card.br-color.shadow-lg.card-h img {
+    width: 55%;
+    margin-left: 22%;
+}
+
+.card-body-content {
+    text-align: center;
+}
+
+.card-body.card-body-content h5 {
+    color: #97BC77;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 35%;
+    z-index: 1;
+}
+
+.carousel-caption.text-caption.d-md-block button {
+    padding: 12px 32px;
+    border: none;
+    background-color: #F65F73;
+    border-radius: 10px;
+}
+
+.carousel-caption.text-caption.d-md-block button a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.bag-color {
+    background-color: #97BC77;
+    padding: 2%;
+
+}
+
+.bg-color {
+    border: none;
+}
+
+ul.navbar-nav.d-flex.justify-content-around li a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.my-nav li a {
+    color: #fff;
+    font-size: 1.23rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.text-caption h5 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.text-caption p {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 22%;
+    right: 0;
+    bottom: 0;
+    left: 43%;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-br {
+    background-color: transparent;
+}
+
+.br-color {
+    border: 1px solid #97BC77;
+}
+
+.card-footer-clr {
+    background-color: #64923b;
+}
+
+.ico-clr i {
+    color: #fff;
+}
+
+small.ico-clr.d-flex.align-items-center {
+    justify-content: center;
+    padding: 4%;
+    font-size: 2rem;
+}
+
+.foot-clr {
+    background-color: #97BC77;
+    text-align: center;
+    padding: 8%;
+    color: #fff;
+}
